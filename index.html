@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>DUMB4096</title>
+
+    <link href="style/main.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="pics/1.jpg" />
+    <link rel="apple-touch-icon" href="pics/1.jpg" />
+    <link
+      rel="apple-touch-startup-image"
+      href="pics/1.jpg"
+      media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"
+    />
+    <!-- iPhone 5+ -->
+    <link
+      rel="apple-touch-startup-image"
+      href="pics/1.jpg"
+      media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)"
+    />
+    <!-- iPhone, retina -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta
+      name="viewport"
+      content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1 class="title">DUMB4096</h1>
+        <div class="scores-container">
+          <div class="score-container">0</div>
+          <div class="best-container">0</div>
+        </div>
+      </div>
+
+      <div class="above-game">
+        <p class="game-intro">You are a <strong>nerd</strong>.</p>
+        <a class="restart-button">New Game</a>
+      </div>
+
+      <div class="game-container">
+        <div class="game-message">
+          <p></p>
+          <div class="lower">
+            <a class="keep-playing-button">Keep going</a>
+            <a class="retry-button">Try again</a>
+          </div>
+        </div>
+
+        <div class="grid-container">
+          <div class="grid-row">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+          </div>
+          <div class="grid-row">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+          </div>
+        </div>
+
+        <div class="tile-container"></div>
+      </div>
+
+      <p class="game-explanation">
+        <strong class="important">How to play:</strong> Use your
+        <strong>arrow keys</strong> to move the tiles. When two tiles with the
+        same number touch, they <strong>merge into one!</strong>
+      </p>
+      <hr />
+      <p>
+        <strong class="important">For Emily:</strong> Finished 2048 like a crazy
+        person.
+      </p>
+      <hr />
+      <table>
+        <tr>
+          <td><img src="pics/1.jpg" /></td>
+          <td><img src="pics/2.jpg" /></td>
+          <td><img src="pics/3.jpg" /></td>
+          <td><img src="pics/4.jpg" /></td>
+          <td><img src="pics/5.jpg" /></td>
+          <td><img src="pics/6.jpg" /></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>4</td>
+          <td>8</td>
+          <td>16</td>
+          <td>32</td>
+          <td>64</td>
+        </tr>
+        <tr>
+          <td><img src="pics/7.jpg" /></td>
+          <td><img src="pics/8.jpg" /></td>
+          <td><img src="pics/9.jpg" /></td>
+          <td><img src="pics/10.jpg" /></td>
+          <td><img src="pics/11.jpg" /></td>
+          <td><img src="pics/mystery.jpg" /></td>
+        </tr>
+        <tr>
+          <td>128</td>
+          <td>256</td>
+          <td>512</td>
+          <td>1024</td>
+          <td>2048</td>
+          <td>4096</td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+
+    <script src="js/bind_polyfill.js"></script>
+    <script src="js/classlist_polyfill.js"></script>
+    <script src="js/animframe_polyfill.js"></script>
+    <script src="js/keyboard_input_manager.js"></script>
+    <script src="js/html_actuator.js"></script>
+    <script src="js/grid.js"></script>
+    <script src="js/tile.js"></script>
+    <script src="js/local_storage_manager.js"></script>
+    <script src="js/game_manager.js"></script>
+    <script src="js/application.js"></script>
+  </body>
+</html>
