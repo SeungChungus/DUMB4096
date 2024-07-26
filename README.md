@@ -1,2 +1,3 @@
-# 4096
+# DUMB4096
 Created with CodeSandbox
+Personal Project
